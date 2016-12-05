@@ -57,8 +57,8 @@ public class SimpleStackImpleTest {
         Item ito = new Item();
         s.push(ito);
         Assert.assertEquals(1,s.getSize());
-        Item it;
-        it = s.peek();
+        Item it1;
+        it1 = s.peek();
         Assert.assertEquals(1,s.getSize());
     }
 
